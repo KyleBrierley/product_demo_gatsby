@@ -30,4 +30,4 @@ const Hit2 = (props) => (
     </Layout>
 )
 
-export default Hit1
+export default Hit2
