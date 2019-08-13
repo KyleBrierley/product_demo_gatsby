@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Layout from '../components/layout'
+import DemoLayout from '../components/demoLayout'
 
 import pic11 from '../assets/images/pic11.jpg'
 
@@ -63,7 +63,7 @@ const Generic = (props) => (
                                         <tfoot>
                                             <tr>
                                                 <td colSpan="2"></td>
-                                                <td>100.00</td>
+                                                <td>Done!</td>
                                             </tr>
                                         </tfoot>
                                     </table>
