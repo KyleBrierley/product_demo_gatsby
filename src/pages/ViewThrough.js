@@ -24,6 +24,9 @@ const ViewThrough = (props) => (
                         <h2>What is ViewThrough?</h2>
                     </header>
                     <p>Similar to a 'view through conversion', where an advertiser wants to attribute a conversion that happens on their website to an ad impression served to a user previously, this new View Through extension allows customers to track user interaction with ads and retrieve that tracking data when the end user later comes to their website. Any data points produced by the customer's adserver (i.e. DCM) can be dynamically populated into the tracking pixel, and later collected when the user hits the website.</p>
+                    <ul className="actions">
+                        <li><Link to="/demoSteps" className="button">Live Demo</Link></li>
+                    </ul>
                 </div>
             </section>
             <section id="two" className="spotlights">
