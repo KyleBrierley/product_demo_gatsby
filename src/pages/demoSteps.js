@@ -5,7 +5,7 @@ import DemoLayout from '../components/demoLayout'
 import pic11 from '../assets/images/pic11.jpg'
 
 const Generic = (props) => (
-    <Layout>
+    <DemoLayout>
         <Helmet>
             <title>View-Through Demo Steps</title>
             <meta name="description" content="Generic Page" />
@@ -72,7 +72,7 @@ const Generic = (props) => (
             </section>
         </div>
 
-    </Layout>
+    </DemoLayout>
 )
 
 export default Generic
