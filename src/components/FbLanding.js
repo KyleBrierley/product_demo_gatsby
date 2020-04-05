@@ -1,17 +1,17 @@
 import React from 'react'
 
-const VtLanding = (props) => (
+const FbLanding = (props) => (
     <section id="banner" className="style2">
         <div className="inner">
             <header className="major">
-                <h1>ViewThrough</h1>
+                <h1>Facebook</h1>
             </header>
             <div className="content">
-                <p>Track your users when they're off-site<br />
-                and collect the data when they're on-site</p>
+                <p>Ditch the JS Pixel<br />
+                Manage events server-side using Tealium CDH</p>
             </div>
         </div>
     </section>
 )
 
-export default VtLanding
+export default FbLanding

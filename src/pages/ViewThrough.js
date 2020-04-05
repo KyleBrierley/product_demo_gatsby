@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import vtLanding from '../components/vtLanding'
+import VtLanding from '../components/vtLanding'
 
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
@@ -15,7 +15,7 @@ const ViewThrough = (props) => (
             <meta name="description" content="ViewThrough" />
         </Helmet>
 
-        <vtLanding />
+        <VtLanding />
 
         <div id="main">
             <section id="one">
