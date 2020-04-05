@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-forty-v2",
+  "name": "tealium-demo-site-gatsby",
   "description": "Gatsby Starter - Forty V2",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Kyle Brierley",
   "dependencies": {
     "gatsby": "^2.2.9",
     "gatsby-plugin-manifest": "^2.0.24",
@@ -29,6 +29,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/kylebrierlety/product_demo_gatsby"
   }
 }
