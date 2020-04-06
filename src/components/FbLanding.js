@@ -1,7 +1,7 @@
 import React from 'react'
 
 const FbLanding = (props) => (
-    <section id="banner" className="style2">
+    <section id="fb_banner" className="style2">
         <div className="inner">
             <header className="major">
                 <h1>Facebook</h1>

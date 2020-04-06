@@ -3,15 +3,16 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import FbLanding from '../components/FbLanding'
+import Trace from '../components/traceForm'
 
 import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 
-const ViewThrough = (props) => (
+const Facebook = (props) => (
     <Layout>
         <Helmet>
-            <title>ViewThrough</title>
+            <title>Facebook</title>
             <meta name="description" content="ViewThrough" />
         </Helmet>
 
@@ -21,12 +22,15 @@ const ViewThrough = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h2>Why go server-side?</h2>
+                        <h2>Test Facebook Server-Side Events</h2>
                     </header>
-                    <p>Remove heavy javascript from the client and send data server-side using vendor REST APIs.</p>
-                    <ul className="actions">
+                    <p>Remove heavy javascript from the client and send data server-side using vendor REST APIs.
+                    <br></br>
+                    Fill out the form to send a test event.</p> 
+                    <Trace />
+                    {/* <ul className="actions">
                         <li><Link to="" className="button">Trigger Connector</Link></li>
-                    </ul>
+                    </ul> */}
                 </div>
             </section>
             <section id="two" className="spotlights">
@@ -37,11 +41,11 @@ const ViewThrough = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Server-Side Events API</h3>
+                                <h3>Tealiumm Documentation</h3>
                             </header>
-                            <p>More stuff about FB, set up instructions, etc.</p>
+                            <p>Learn how to set up the connector in Tealium CDH.</p>
                             <ul className="actions">
-                                <li><Link to="" className="button">Link to FB Docs</Link></li>
+                                <li><Link to="" className="button">TLC</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -53,11 +57,11 @@ const ViewThrough = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>How to Set It Up</h3>
+                                <h3>Facebook Documentation</h3>
                             </header>
-                            <p>Set up instructions go here.</p>
+                            <p>Learn how to configure your Facebook Ads account to use server-side event management.</p>
                             <ul className="actions">
-                                <li><Link to="" className="button">Link to TLC Docs</Link></li>
+                                <li><Link to="" className="button">FB Docs</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -68,4 +72,4 @@ const ViewThrough = (props) => (
     </Layout>
 )
 
-export default ViewThrough
+export default Facebook

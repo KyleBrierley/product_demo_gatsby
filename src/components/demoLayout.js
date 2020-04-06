@@ -43,7 +43,7 @@ class DemoLayout extends React.Component {
                 <div id="wrapper">
                     <Header onToggleMenu={this.handleToggleMenu} />
                     {children}
-                    <Contact />
+                    {/* <Contact /> */}
                     <Footer />
                 </div>
                 <Menu onToggleMenu={this.handleToggleMenu} />
